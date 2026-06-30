@@ -1,68 +1,76 @@
 # Color Laboratory
 
-## What this is
+### From color measurements to reproducible research data.
 
-Color Laboratory is a Streamlit-based tool for capturing, transforming, and analyzing color data.
+Color Laboratory is an open-source research platform for color acquisition, analysis and experimentation.
 
-It allows input in HEX or RGB and generates a full color harmony dataset for each sample.
+The project was created to help researchers, designers and engineers transform color measurements into structured, reproducible datasets. While many digital color tools focus on visualization or palette creation, Color Laboratory focuses on documenting color as experimental data.
 
-Each observation becomes a structured data point for analysis in design and perception studies.
-
----
-
-## Input modes
-
-- HEX input
-- RGB input
+The current version provides a lightweight environment for recording RGB and HEX values, generating color harmonies and exporting datasets for further analysis. Future versions will extend the platform toward computational color science, spectral reconstruction and experimental workflows.
 
 ---
 
-## Outputs per sample
+# Mission
 
-For every color, the system generates:
+**Color Laboratory exists to transform color measurements into reproducible research data.**
 
-- Base color
-- Analogous 1
-- Analogous 2
-- Complementary
-- Triad 1
-- Triad 2
+Every design decision in this project follows three principles:
 
----
-
-## Data tracking
-
-Each entry includes:
-
-- Timestamp
-- HEX value
-- RGB values
-- Full derived palette
+* **Reproducibility** – Every measurement should be traceable and repeatable.
+* **Open Science** – The platform is developed openly to encourage transparency and collaboration.
+* **Extensibility** – The architecture is designed to grow from simple color acquisition into a complete research environment.
 
 ---
 
-## How to run
+# Why Color Laboratory?
 
-Install dependencies:
+Color is present in product design, architecture, manufacturing, lighting, healthcare and many other disciplines. Although numerous digital tools help users visualize colors or generate palettes, relatively few are designed to organize color measurements as structured experimental data.
 
-```bash id="2xv9q3"
-pip install -r requirements.txt
+Color Laboratory was created to fill that gap.
 
-Run the app:
+Rather than replacing professional color measurement equipment, the platform provides a practical environment for recording observations, organizing experiments and preparing datasets that can later be analyzed using computational methods.
 
-streamlit run app.py
+The long-term objective is to support reproducible workflows that connect color acquisition with scientific analysis.
 
-Export
+---
 
-You can export all collected samples as a CSV file for further analysis in Excel, Python, or statistical tools.
+# Current Features
 
-Why this matters
+Version **0.1.0** includes:
 
-This tool is designed as a bridge between:
+* RGB ↔ HEX conversion
+* Automatic generation of complementary, analogous and triadic color harmonies
+* Multi-sample laboratory interface
+* Timestamp registration
+* CSV export
+* Streamlit-based graphical interface
+* Open-source Python implementation
 
-Color perception
-Computational representation
-Design research
-Environmental analysis
+These features establish the foundation for future scientific modules while remaining simple enough for educational and research use.
 
-It turns color input into structured data for experimental use.
+---
+
+# Project Status
+
+Color Laboratory is currently released as a **Research Prototype (v0.1.0).**
+
+The project is under active development.
+
+Feedback from researchers, designers, engineers and software developers is highly appreciated and will help guide future versions.
+
+---
+
+# Vision
+
+The long-term goal of Color Laboratory is to become a reliable starting point for documenting, organizing and analyzing color experiments.
+
+Future versions will integrate scientific color spaces, spectral reconstruction methods, computational models and hardware acquisition systems while maintaining reproducible research workflows.
+
+The project is intended to evolve alongside ongoing research in color science, design and engineering.
+## Screenshot
+
+<p align="center">
+  <img src="docs/Figures/color-laboratory-v0.1.png"
+       alt="Color Laboratory"
+       width="900">
+</p>
